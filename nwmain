@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# This creates a backup of the chat log everytime you open the game
+
+mv /Users/ceph/Documents/Neverwinter\ Nights/logs/nwclientLog1.txt /Users/ceph/Documents/Neverwinter\ Nights/logs/$( date +%F_%R )-log.txt || /Applications/Neverwinter\ Nights\ Enhanced\ Edition/bin/macos/nwmain.app/Contents/MacOS/nwmainreal
